@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Financial Dashboard - Dany & Clair</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: 'Segoe UI', sans-serif;
+            background-color: #f4f6f8;
+            color: #333;
+            margin: 0;
+            padding: 20px;
+        }
+        header {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+        h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        .section {
+            background: #fff;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+            margin-left: 500px;
+            margin-right:500px
+        }
+        .section h2 {
+            margin-top: 0;
+            color: #2c3e50;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 10px;
+        }
+        th, td {
+            padding: 10px;
+            border-bottom: 1px solid #ddd;
+            text-align: left;
+        }
+        .total {
+            text-align: right;
+            font-weight: bold;
+            font-size: 1.2em;
+        }
+        .highlight {
+            color: #16a085;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Financial Dashboard</h1>
+        <p>Confidential View – Dany & Clair</p>
+        <p>Last update : 20 th June 2025</p>
+    </header>
+
+    <div class="section">
+        <h2>1. Fixed Deposits (Target: ₹30 Lakhs by Dec 2025)</h2>
+        <table>
+            <tr><th>Bank</th><th>Maturity Date</th><th>Amount (₹)</th></tr>
+            <tr><td>HDFC Bank - Dany</td><td>2025-09-10</td><td>500,000</td></tr>
+            <tr><td>HDFC Bank - Dany</td><td>2026-01-15</td><td>300,000</td></tr>
+            <tr><td>HDFC Bank - Clair</td><td>2025-12-20</td><td>500,000</td></tr>
+            <tr><td>SIB Bank - Joint</td><td>2025-12-20</td><td>500,000</td></tr>
+        </table>
+        <p class="total">Total: ₹18,00,000</p>
+    </div>
+
+    <div class="section">
+        <h2>2. Saving Accounts (Target: ₹50 Lakhs by Dec 2025)</h2>
+        <table>
+            <tr><th>Bank</th><th>Amount (₹)</th></tr>
+            <tr><td>SIB Bank - Joint</td><td>500,000</td></tr>
+            <tr><td>HDFC Bank - Dany</td><td>200,000</td></tr>
+            <tr><td>CBQ Bank - Dany</td><td>13,00,000</td></tr>
+            <tr><td>HDFC Bank - Clair</td><td>17,00,000</td></tr>
+        </table>
+        <p class="total">Total: ₹37,00,000</p>
+    </div>
+
+    <div class="section">
+        <h2>3. Stock Portfolio (Target: ₹20 Lakhs by Dec 2025)</h2>
+        <p>Total Portfolio Value  (Stocks + Mutual Funds): <span class="highlight">₹19,30,000</span></p>
+        <p class="total">Total: ₹19,30,000</p>
+    </div>
+
+    <div class="section">
+        <h2>4. Gold Portfolio (Target: ₹45 Lakhs by Dec 2025)</h2>
+        <p>Total Value: <span class="highlight">₹41,00,000</span></p>
+        <p class="total">Total: ₹41,00,000</p>
+    </div>
+
+    <div class="section">
+        <h2>5. Material Assets (Target: ₹2 Crore by Dec 2025)</h2>
+        <table>
+            <tr><th>Asset</th><th>Value (₹)</th></tr>
+            <tr><td>Car</td><td>8,50,000</td></tr>
+            <tr><td>House</td><td>2,00,00,000</td></tr>
+            <tr><td>Land</td><td>11,00,000</td></tr>
+        </table>
+        <p class="total">Total: ₹2,19,50,000</p>
+    </div>
+
+    <div class="section">
+        <h2>6. Digital / Policy Assets (Target: ₹23 Lakhs by Dec 2025)</h2>
+        <table>
+            <tr><th>Asset</th><th>Value (₹)</th></tr>
+            <tr><td>EPF - Dany</td><td>200,000</td></tr>
+            <tr><td>EPF - Clair</td><td>200,000</td></tr>
+            <tr><td>LIC Policy - Dany </td><td>6,50,000</td></tr>
+            <tr><td>SBI LIFE - ULIP - Dany</td><td>2,50,000</td></tr>
+            <tr><td>HDFC - Aditya Birla - Dany</td><td>1,00,000</td></tr>
+            <tr><td>LIC Policy - Clair</td><td>1,00,000</td></tr>
+            <tr><td>HDFC Policy - Clair</td><td>8,50,000</td></tr>
+        </table>
+        <p class="total">Total: ₹23,50,000</p>
+    </div>
+
+    <div class="section">
+        <h2>Grand Totals</h2>
+        <p class="total">Total of All Assets: <span class="highlight">₹3,59,30,000</span></p>
+        <p class="total">Liquid Cash (FD + Savings + Stocks): <span class="highlight">₹74,30,000</span></p>
+    </div>
+
+</body>
+</html>

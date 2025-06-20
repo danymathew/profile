@@ -3687,3 +3687,17 @@ input, select, textarea {
 			}
 
 	}
+	#hidden-dashboard-btn {
+        position: fixed;
+        top: 0px;
+        right: 0px;
+        opacity: 0;
+        width: 30px;
+        height: 30px;
+        background: transparent;
+        z-index: 9999;
+        cursor: pointer;
+    }
+    #hidden-dashboard-btn:hover {
+        opacity: 0.3; /* Slight hover effect for dev visibility */
+    }
