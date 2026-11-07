@@ -240,9 +240,8 @@
       month's data in one versioned array is what makes month-over-month
       analytics possible later (export it, load it into pandas/Sheets, etc).
     -->
-        <script type="application/json" id="dashboard-data">
 
-   {
+        <script type="application/json" id="dashboard-data">{
   "meta": {
     "title": "Financial Dashboard",
     "subtitle": "Confidential View – Dany & Clair"
@@ -2695,7 +2694,7 @@
         {
           "id": 1,
           "title": "Fixed Deposits",
-          "target": 5000000,
+          "target": 9000000,
           "type": "table",
           "columns": [
             {
@@ -2757,6 +2756,26 @@
               "bank": "SIB Bank - Joint",
               "maturity": "2028-03-16",
               "amount": 500000
+            },
+            {
+              "bank": "HDFC Bank Dany",
+              "maturity": "2028-05-07",
+              "amount": 500000
+            },
+            {
+              "bank": "HDFC Bank Dany",
+              "maturity": "2028-05-07",
+              "amount": 500000
+            },
+            {
+              "bank": "HDFC Bank Clair",
+              "maturity": "2028-05-07",
+              "amount": 500000
+            },
+            {
+              "bank": "SIB Bank - Joint",
+              "maturity": "2028-05-08",
+              "amount": 500000
             }
           ]
         },
@@ -2779,23 +2798,23 @@
           "rows": [
             {
               "bank": "SIB Bank - Joint",
-              "amount": 1049000
+              "amount": 549000
             },
             {
               "bank": "HDFC Bank NRO - Dany",
-              "amount": 231867
+              "amount": 222867
             },
             {
               "bank": "HDFC Bank NRE - Dany",
-              "amount": 544037
+              "amount": 314037
             },
             {
               "bank": "CBQ Bank - Dany",
-              "amount": 1129000
+              "amount": 570000
             },
             {
               "bank": "CBQ Bank - Clair",
-              "amount": 3300000
+              "amount": 2236000
             },
             {
               "bank": "HDFC Bank - Clair",
@@ -2897,22 +2916,7 @@
             },
             {
               "asset": "Malabar - Gold Scheme",
-              "amount": 146000
-            }
-          ]
-        },
-        {
-          "id": 7,
-          "title": "Payments to Receive",
-          "type": "list",
-          "items": [
-            {
-              "label": "Hebin",
-              "amount": 630000
-            },
-            {
-              "label": "Chinnu",
-              "amount": 110000
+              "amount": 312000
             }
           ]
         },
@@ -2923,11 +2927,11 @@
           "items": [
             {
               "label": "Amex",
-              "amount": 237000
+              "amount": 260000
             },
             {
               "label": "Credit card - CBQ",
-              "amount": 179000
+              "amount": 203000
             }
           ]
         }
@@ -2935,8 +2939,7 @@
     }
   ]
 }
-          
-        </script>
+</script>
 
     <div class="section grand" id="grandCard" style="display:none;">
       <h2>Grand Totals</h2>
